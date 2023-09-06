@@ -1,6 +1,6 @@
-# Personal blog
+# Youzhaing Blog
 
-Personal blog
+A personal blog for recording
 
 ### Installation
 
