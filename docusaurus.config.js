@@ -3,8 +3,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const config = {
   // 网站的title
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "You zhaing's blog",
+  tagline: "Welcome to youzhaing's channel, I'm a Data Analyst & Dancer",
 
   // 网站的图标，在img目录下
   favicon: "img/favicon.ico",
