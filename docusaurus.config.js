@@ -3,8 +3,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const config = {
   // 网站的title
-  title: "You zhaing's blog",
-  tagline: "Welcome to youzhaing's channel, I'm a Data Analyst & Dancer",
+  title: "walk heart blog",
+  tagline: "No use but happy",
 
   // 网站的图标，在img目录下
   favicon: "img/favicon.ico",
@@ -50,7 +50,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "You zhaing",
+        title: "youzhaing",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.png",
@@ -58,14 +58,15 @@ const config = {
         // 这里就是网页导航的内容,只需要改label名称就可以
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            to: "/docs/日记",
             position: "left",
             label: "日记",
           },
           { to: "/blog", label: "笔记", position: "left" },
+          { to: "/docs/bb/bb两句", label: "随便bb", position: "left"},
+          { to: "/docs/bb/致谢", label: "致谢", position: "right"},
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/youzhaing/youzhaing_blog",
             label: "GitHub",
             position: "right",
           },
