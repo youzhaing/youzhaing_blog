@@ -7,7 +7,7 @@ const config = {
   tagline: "No use but happy",
 
   // 网站的图标，在img目录下
-  favicon: "img/favicon.ico",
+  favicon: "https://github.com/youzhaing.png",
 
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
@@ -53,17 +53,15 @@ const config = {
         title: "youzhaing",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.png",
+          src: "https://github.com/youzhaing.png",
         },
         // 这里就是网页导航的内容,只需要改label名称就可以
         items: [
-          {
-            to: "/docs/日记",
-            position: "left",
-            label: "日记",
-          },
           { to: "/blog", label: "笔记", position: "left" },
+          { to: "/docs/日记/日记1", position: "left", label: "日记"},
           { to: "/docs/bb/bb两句", label: "随便bb", position: "left"},
+          { to: "/docs/算法/树的遍历", label: "算法", position: "left"},
+          { to: "/docs/算法/排序", label: "算法-排序", position: "left"},
           { to: "/docs/bb/致谢", label: "致谢", position: "right"},
           {
             href: "https://github.com/youzhaing/youzhaing_blog",
@@ -94,11 +92,7 @@ const config = {
               {
                 label: "Discord",
                 href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
+              }
             ],
           },
           {
