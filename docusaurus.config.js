@@ -13,7 +13,7 @@ const config = {
   baseUrl: "/",
 
   organizationName: "youzhaing",
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "youzhaing_blog", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -57,11 +57,9 @@ const config = {
         },
         // 这里就是网页导航的内容,只需要改label名称就可以
         items: [
-          { to: "/blog", label: "笔记", position: "left" },
-          { to: "/docs/日记/日记1", position: "left", label: "日记"},
-          { to: "/docs/bb/bb两句", label: "随便bb", position: "left"},
-          { to: "/docs/算法/树的遍历", label: "算法", position: "left"},
-          { to: "/docs/算法/排序", label: "算法-排序", position: "left"},
+          { to: "/blog", label: "Blogs", position: "right"},
+          { to: "/docs/bb/bb两句", label: "随便bb", position: "right"},
+          { to: "/docs/算法/树的遍历", label: "算法", position: "right"},
           { to: "/docs/bb/致谢", label: "致谢", position: "right"},
           {
             href: "https://github.com/youzhaing/youzhaing_blog",
