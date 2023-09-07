@@ -58,9 +58,9 @@ const config = {
         // 这里就是网页导航的内容,只需要改label名称就可以
         items: [
           { to: "/blog", label: "Blogs", position: "right"},
-          { to: "/docs/bb/bb两句", label: "随便bb", position: "right"},
+          { to: "/docs/杂谈/bb两句", label: "杂谈", position: "right"},
           { to: "/docs/算法/树的遍历", label: "算法", position: "right"},
-          { to: "/docs/bb/致谢", label: "致谢", position: "right"},
+          { to: "/docs/杂谈/致谢", label: "致谢", position: "right"},
           {
             href: "https://github.com/youzhaing/youzhaing_blog",
             label: "GitHub",
