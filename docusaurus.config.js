@@ -72,15 +72,6 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/",
-              },
-            ],
-          },
-          {
             title: "Community",
             items: [
               {
@@ -97,17 +88,17 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
+                label: "My Blog",
                 to: "/blog",
               },
               {
-                label: "GitHub",
+                label: "Docusaurus GitHub",
                 href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} youzhaing. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -9,6 +9,10 @@ Thanks to our good boy JiuRan brother.
 
 Good Luck!
 
+> look at this, this is a special meta cube.
+
+---
+
 **Cute pokemon**:
 
-![pokemon](./pokemon.jpeg)
+picture is too big. No suitable for touching fish.
