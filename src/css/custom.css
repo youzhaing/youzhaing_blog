@@ -30,5 +30,24 @@
 }
 
 .navbar__logo > img {
-    border-radius: 50%;
+    border-radius: 30%;
+}
+
+.margin-bottom--xl > header > h2 > a {
+  font-size: xx-large;
+}
+
+.theme-doc-markdown > header > h1 {
+  font-size: xx-large;
+  color: #2e8555;
+}
+
+.theme-doc-markdown > h1 {
+  font-size: xx-large;
+  color: #2e8555;
+}
+
+.theme-doc-markdown >  h2 {
+  font-size: x-large;
+  color: #369e65;
 }
