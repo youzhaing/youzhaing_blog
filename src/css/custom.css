@@ -29,25 +29,31 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* photo attr*/
 .navbar__logo > img {
     border-radius: 30%;
 }
 
+/* Blogs title */
 .margin-bottom--xl > header > h2 > a {
   font-size: xx-large;
 }
 
+/* 杂谈文件名称 */
 .theme-doc-markdown > header > h1 {
   font-size: xx-large;
   color: #2e8555;
 }
 
+/* 杂谈文件h1 */
 .theme-doc-markdown > h1 {
   font-size: xx-large;
   color: #2e8555;
 }
 
+/* 杂谈文件h2 */
 .theme-doc-markdown >  h2 {
   font-size: x-large;
   color: #369e65;
 }
+
